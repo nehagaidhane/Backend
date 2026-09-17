@@ -15,6 +15,10 @@ import express from 'express'
 
 
 const app = express()
+app.use((res,req,next)=>{
+    console.log("Middleware is running");
+    next();
+})
 
 app.get('/', (req, res) => {
   res.send('Hello World, this is backend server')

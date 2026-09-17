@@ -656,4 +656,5 @@ Introduction of express js
 express js is a framework and npm package 
 manages everything from receiving the request and giving the resposne 
 
-Middleware
+Middleware-- the commuctnication between to deviced and the to perform somthing in between we can do it with the help of middleware before routing 
+two ways to write middleware
